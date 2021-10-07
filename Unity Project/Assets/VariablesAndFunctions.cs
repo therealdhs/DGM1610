@@ -17,7 +17,7 @@ public class VariablesAndFunctions : MonoBehaviour
     int MultiplyByTwo (int number)
     {
         int result;
-        result = numberr * 2;
+        result = number * 2;
         return result;
     }
 }
