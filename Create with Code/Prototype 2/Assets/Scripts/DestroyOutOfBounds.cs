@@ -23,7 +23,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         else if (transform.position.z < lowerBound)
         {
         // If an animal gets past the player
-        Debug.Log("Game Over!");
+        Debug.Log("GAME OVER!");
         Destroy(gameObject);
         }
     }
